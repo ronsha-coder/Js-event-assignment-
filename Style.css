@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#hoverBox {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 50px;
+}
+
+.gallery img {
+  display: block;
+  margin: 10px 0;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.tab-content:not(.hidden) {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+}
